@@ -28,7 +28,8 @@ Simple, lightweight logging framework written in Swift.4G means for GodEye, it w
   s.source           = { :git => 'https://github.com/zixun/Log4G.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/zixun_'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'Log4G/Classes/**/*'
   
